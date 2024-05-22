@@ -5,6 +5,7 @@ import ImageComp from "@/components/imageGrid/ImageComp";
 import ImageGird from "@/components/imageGrid/ImageGird";
 import ImageComponentWithDesc from "@/components/imageGrid/ImageComponentWithDesc";
 import Button from "@/components/Button";
+import Testimonial from "@/components/Testimonial";
 
 export default function Home() {
   return (
@@ -32,7 +33,10 @@ export default function Home() {
      <div>
      <div className=" my-6 py-6 "><Button path='/work' text='See our work' className={'bg-primary text-white text-[24px] font-bold py-2 px-6 mx-auto  hover:bg-white hover:text-primary hover:border-primary hover:border'}/></div>
      </div>
-  
+      <div className=" my-12">
+      <Testimonial/>
+      </div>
+
     </Container>
   );
 }
