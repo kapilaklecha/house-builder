@@ -10,7 +10,7 @@ export default function IconPencilRuler() {
           focusable="false"
           data-prefix="fal"
           data-icon="pencil-ruler"
-          role="img"
+          
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
           data-fa-i2svg=""

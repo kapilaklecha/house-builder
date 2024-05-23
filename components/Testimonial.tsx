@@ -15,7 +15,7 @@ const Testimonial = () => {
             </div>
             <div className=' flex items-center  justify-center gap-2 max-lg:flex-col '>
                 <div>
-                    <img src="/house1.jpg" alt="" className=' w-[96px] h-[96px] object-cover rounded-full '/>
+                    <img src="/house1.jpg" alt="pic" className='w-[96px] h-[96px] object-cover rounded-full'/>
                 </div>
                 <div className=' leading-6 max-lg:text-center'>
                     <p className=' font-bold text-[24px] font-sans '>Rahul Verma</p>
