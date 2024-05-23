@@ -13,7 +13,7 @@ const Footer = () => {
         <h3 className=' font-bold text-[20px] mb-6'>
         Join Our Team
         </h3>
-        <p className=' text-[24px] mb-6'>We're always open to discussing collaboration opportunities with other professional trades. Go ahead and introduce yourself.</p>
+        <p className=' text-[24px] mb-6'>{"We're always open to discussing collaboration opportunities with other professional trades. Go ahead and introduce yourself."}</p>
         <a href="" className=' text-primary text-[18px]'>Say Hello</a>
       </div>
       <div className=' w-[16.66%] max-lg:w-[100%] flex flex-col px-6'>

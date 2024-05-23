@@ -7,8 +7,8 @@ const page = () => {
         <div className=' flex justify-center items-center'>
         <div className=' w-[66.66%] '  >
             <div className='pt-[96px] pb-[50px] py-6 mb-6'>
-            <h1 className=' text-[2rem] font-bold'>Let's build something great together</h1>
-            <p className='text-[1.5rem]'>Whatever your ambition, we'd love to design and build your next big home addition or lend a hand with a major renovation.</p>
+            <h1 className=' text-[2rem] font-bold'>{"Let's build something great together"}</h1>
+            <p className='text-[1.5rem]'>{"Whatever your ambition, we'd love to design and build your next big home addition or lend a hand with a major renovation."}</p>
             </div>
             <div>
                 <form action="">

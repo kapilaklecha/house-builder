@@ -13,7 +13,7 @@ const page = () => {
     
         <h1 className=' text-[48px] font-bold mb-6'>Building is in our DNA</h1>
        <p className=' text-[24px] mb-6 '>
-       For more than twenty years we've been working in the home renovation space. It's not just what we do — it's who we are. 2005 year founded 300+ completed projects 98.7%
+      { "For more than twenty years we've been working in the home renovation space. It's not just what we do — it's who we are. 2005 year founded 300+ completed projects 98.7%"}
       </p>
         </div>
         </div>
