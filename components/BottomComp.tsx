@@ -15,7 +15,7 @@ const BottomComp = () => {
             <p>Since 2005, we've helped hundreds of Fraser Valley homeowners like you create better living spaces with forward-thinking design, experience-driven insight, and expert level craftsmanship.</p>
         </div>
          
-        <div className='my-6'><Button path='/work' text="Let's work together" className={'bg-primary text-white text-[24px] font-bold py-3 px-6  hover:bg-white hover:text-primary hover:border-primary hover:border'}/></div>
+        <div className='my-6'><Button path='/contact' text="Let's work together" className={'bg-primary text-white text-[24px] font-bold py-3 px-6  hover:bg-white hover:text-primary hover:border-primary hover:border'} /></div>
 
     </div>
     </div>
