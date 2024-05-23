@@ -19,7 +19,7 @@ const page = () => {
         </div>
         <Container>
          
-        <div className=' grid grid-cols-2 p-12 mt-[-128px]'>
+        <div className=' grid grid-cols-2 max-lg:grid-cols-1 p-12 mt-[-128px]'>
           <CustomCard/>
           <CustomCard/>
           <CustomCard/>
