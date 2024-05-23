@@ -33,7 +33,7 @@ const page = () => {
             <h2 className=' font-bold text-[32px] mb-6'>
                 Core values
             </h2>
-            <p>We are a mission-driven company committed to transparency, accountability, sustainability and positive impact. It’s not just good business – it’s the only way we want to do business.</p>
+            <p className=' text-[18px]'>We are a mission-driven company committed to transparency, accountability, sustainability and positive impact. It’s not just good business – it’s the only way we want to do business.</p>
         </div>
         </div>
         <div className='flex'>
