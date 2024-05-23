@@ -6,8 +6,7 @@ const Footer = () => {
     <Container>
     <div className='flex  gap-6 py-12 max-lg:flex-col'>
       <div className=' w-[33.33%] max-lg:w-[100%] px-6'><h3 className=' font-bold text-[20px] mb-6'>WF Design + Build © 2024</h3>
-      <p className=' text-[24px] mb-6'>4432 Wilson Rd.
-Chilliwack, BC V2R 5C5</p>
+      <p className=' text-[24px] mb-6'>Indore, Bhawarkua</p>
 <a href="" className=' text-primary'>Privacy Policy</a>
       </div>
       <div className=' w-[33.33%] max-lg:w-[100%] px-6'>
