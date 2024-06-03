@@ -4,7 +4,7 @@ import IconPencilRuler from './svgs/IconPencilRuler'
 const CustomCard = () => {
   return (
      <div className=' p-[24px]'>
-    <div className=" bg-white p-12 border border-[#e5e5e5] rounded-sm">
+    <div className=" bg-white p-12 border border-[#e5e5e5] rounded-sm max-lg:p-2">
       <div className='w-[96px]'><IconPencilRuler/></div>
      
     <h2 className="text-3xl font-bold my-6">Custom Design + Build</h2>
