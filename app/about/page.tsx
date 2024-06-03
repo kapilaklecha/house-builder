@@ -22,7 +22,7 @@ const page = () => {
         </div>
         <div className=' mt-[-96px]'>
         <Container>
-        <div className=' flex  '>
+        <div className='grid grid-cols-4 max-lg:grid-cols-2 bg-white max-lg:w-[80%] max-lg:mx-auto'>
             <NumCard head='2005' desc='year founded'/>
             <NumCard head='300+' desc='completed projects'/>
             <NumCard head='98.3%' desc='client satisfaction'/>
@@ -36,7 +36,7 @@ const page = () => {
             <p className=' text-[18px]'>We are a mission-driven company committed to transparency, accountability, sustainability and positive impact. It’s not just good business – it’s the only way we want to do business.</p>
         </div>
         </div>
-        <div className='flex'>
+        <div className='grid grid-flow-col max-lg:grid-flow-row'>
             <ImageComponentWithDesc source='/house1.jpg' desc="There's never a stressful amount of pressure to meet unreasonable expectations. We project-manage towards specific quality goals to ensure the best possible result." heading='We do it right'/>
             <ImageComponentWithDesc source='/house1.jpg' desc="Collaboration and open lines of communication is an important part of our process. We choose to work with responsible homeowners and trades people we can trust." heading='We do it together'/>
             <ImageComponentWithDesc source='/house1.jpg' desc="Building close relationships with our clients and turning dreams into reality is a privilege. It's the reason we do what we do and why we enjoy it so much." heading='We do it with purpose'/>
@@ -56,7 +56,7 @@ export default page
 
 const NumCard = ({head, desc} : {head: string, desc:string}) => {
     return (
-        <div className=' bg-white text-[#000000] p-3 pt-12 w-full text-center'>
+        <div className=' bg-white text-[#000000] p-3 pt-12 w-full text-center border-none'>
             <h1 className=' text-[48px] font-bold'>{head}</h1>
             <p>{desc}</p>
         </div>
