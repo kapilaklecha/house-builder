@@ -41,7 +41,7 @@ const page = () => {
             <ImageComponentWithDesc source='/house1.jpg' desc="Collaboration and open lines of communication is an important part of our process. We choose to work with responsible homeowners and trades people we can trust." heading='We do it together'/>
             <ImageComponentWithDesc source='/house1.jpg' desc="Building close relationships with our clients and turning dreams into reality is a privilege. It's the reason we do what we do and why we enjoy it so much." heading='We do it with purpose'/>
         </div>
-        <div>
+        <div className=' my-24'>
             <Testimonial/>
         </div>
 
